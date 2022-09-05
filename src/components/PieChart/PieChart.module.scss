@@ -1,0 +1,40 @@
+.pieChart{
+  position: relative;
+  width: 300px;
+}
+.pieChart__num1{
+  position: absolute;
+  top: 60px;
+  left: 87px;
+  font-size: 20px;
+  font-weight: 700;
+  & span{
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+.pieChart__num2{
+  position: absolute;
+  top: 55px;
+  left: 177px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.pieChart__textItems{
+  position: absolute;
+  top: 85px;
+  left: 110px;
+  width: 150px;
+  height: 80px;
+}
+.pieChart__textItem{}
+.pieChart__title{
+  font-size: 11px;
+}
+.pieChart__count{
+  font-size: 16px;
+  font-weight: 800;
+  & span {
+    color: #989797;
+  }
+}
